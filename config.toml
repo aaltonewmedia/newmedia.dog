@@ -1,4 +1,4 @@
-baseURL = 'https://newmedia.dog'
+baseURL = 'https://joyful-puffpuff-24f93e.netlify.app'
 languageCode = 'en-us'
 title = 'Aalto New Media'
 theme = 'newmedia-hugo'

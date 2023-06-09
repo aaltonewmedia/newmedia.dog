@@ -1,0 +1,7 @@
+{{ if .Params.image }}
+  {{ with .Resources.GetMatch .Params.image }}
+    <a href="{{ .RelPermalink }}"><img src={{ .RelPermalink }} class="img-featured" alt="..."/></a>
+  {{ else }}
+    <a href="{{ .RelPermalink }}"><img src={{ .Params.image | relURL }} class="img-fluid" alt="..."/></a>
+  {{ end }}
+{{ end }}

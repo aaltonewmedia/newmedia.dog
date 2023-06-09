@@ -1,0 +1,7 @@
+{{ if .Params.image }}
+  {{ with .Resources.GetMatch .Params.image }}
+    <img src="{{ .RelPermalink }}" class="card-img-top" alt="..."/>
+  {{ else }}
+    <img src="{{ .Params.image | relURL }}" class="card-img-top" alt="..."/>
+  {{ end }}
+{{ end }}

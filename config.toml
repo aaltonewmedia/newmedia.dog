@@ -1,0 +1,67 @@
+baseURL = 'https://newmedia.dog'
+languageCode = 'en-us'
+title = 'Aalto New Media'
+theme = 'newmedia-hugo'
+copyright = '{year} Aalto Media Lab. All rights reserved.'
+paginate = 30
+ignoreFiles = [ "README.md" ]
+
+[markup.goldmark.renderer]
+ unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 1
+  endLevel = 5
+
+[params]
+  logo = '/images/logo.png'
+  image = '/images/default.jpg'
+  debug = false
+  courses = "courses"
+  students = "students"
+  news = "news"
+  
+  # (Optional, default docs) Specify section of content to render as menu
+  # You can also set value to "*" to render all sections to menu
+  BookSection = '*'
+
+  # (Optional, default true) Controls table of contents visibility on right side of pages.
+  # Start and end levels can be controlled with markup.tableOfContents setting.
+  # You can also specify this parameter per page in front matter.
+  mnstriToC = false
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    title = "About me"
+    weight = 100
+
+  [[menu.main]]
+    identifier = "courses"
+    name = "Courses"
+    url = "/courses/"
+    title = "Courses"
+    weight = 110
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    title = "Projects"
+    weight = 120
+
+  [[menu.main]]
+    identifier = "students"
+    name = "Students"
+    url = "/students/"
+    title = "Students"
+    weight = 130
+  
+  [[menu.main]]
+    identifier = "news"
+    name = "News"
+    url = "/news/"
+    title = "News"
+    weight = 140

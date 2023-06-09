@@ -1,0 +1,1 @@
+- video shortcode from [here](https://github.com/martignoni/hugo-video)

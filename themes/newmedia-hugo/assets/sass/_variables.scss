@@ -1,0 +1,38 @@
+// bootstrap variable overrides
+
+// scss-docs-start theme-color-variables
+$primary:       #1d2118;
+$light:         #f5efea;
+$dark:          #1d2118;
+$pink:          #ac6086;
+$yellow:        #f8df00;
+// scss-docs-end theme-color-variables
+
+// body
+$body-bg:        $light;
+$body-color:     $dark;
+
+// shadows
+$box-shadow-btm:     0 0.2rem 0.2rem 0.1rem rgba($dark, .25);
+$box-shadow-top:     0 -0.2rem 0.2rem 0.1rem rgba($dark, .25);
+
+// border styles
+$element-border:    0.1rem solid $primary;
+
+//code
+$code-text:        $light;
+$code-bg:          $dark;
+
+// toc
+$toc-width: 16rem !default;
+
+// url highlight
+$url-highlight: $primary; 
+
+@mixin fixed {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}

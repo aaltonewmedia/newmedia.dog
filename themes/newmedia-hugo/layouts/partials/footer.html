@@ -1,0 +1,4 @@
+<div class="col">
+  {{ if .Site.Params.debug}}{{ partial "footer-debug" . }}{{ end }}
+  <p class="footer">&copy; {{ replace .Site.Copyright "{year}" now.Year }}</p>
+</div>

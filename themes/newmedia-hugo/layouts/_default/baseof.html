@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  {{- partial "head" . -}}
+  {{ partial "inject/head" . }}
+  
+  <body>
+
+    <header class="container-fluid">
+      {{- partial "header" . -}}
+    </header>
+
+    {{- partial "nav-top" . -}}
+
+    <main id="content" class="container-xxl">
+          {{- block "main" . -}}
+          {{ end }}
+    </main>
+
+    <footer class="container-fluid py-3 fixed-bottom">
+        <div class="row">
+          {{- partial "footer" . -}}
+        </div>
+    </footer>
+
+    {{- partial "scripts" . -}}
+  
+  </body>
+</html>

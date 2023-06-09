@@ -1,0 +1,20 @@
+<div class="container-fluid p-0 sticky-top">
+  <nav class="navbar navbar-expand-sm mnstri-top-nav navbar-dark">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        {{ $currentPage := . }}
+        {{ $type := .Type }}
+        {{ range .Site.Menus.main }}
+        {{ $id := .Identifier }}
+            <li class="nav-item navbar-item {{ if eq $type $id }} active{{end}}">
+              <a class="nav-link{{ if eq $type $id }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+            </li>
+        {{ end }}
+      </ul>
+    </div>
+  </nav>
+</div>

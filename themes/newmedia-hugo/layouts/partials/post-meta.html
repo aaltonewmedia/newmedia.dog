@@ -1,0 +1,21 @@
+<!--
+{{ with .Date }}
+  <p class="card-text px-3">{{ partial "date" (dict "Date" . "Format" $.Site.Params.BookDateFormat) }}</p>
+{{ end }}
+-->
+
+{{ if .Params.year}}
+<p class="card-text px-3">{{ .Params.year }}</p>
+{{ end }}
+
+{{ range $taxonomy, $_ := .Site.Taxonomies }}
+  {{ with $terms := $.GetTerms $taxonomy }}
+  <div class="post-meta row">
+    <div class="col px-4">
+    {{ range $n, $term := $terms }}{{ if $n }}{{ end }}
+      <a href="{{ $term.RelPermalink }}">{{ $term.Title }}</a>
+    {{- end }}
+    </div>
+  </div>
+  {{ end }}
+{{ end }}

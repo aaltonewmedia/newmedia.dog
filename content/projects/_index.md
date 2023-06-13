@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-draft: false
+draft: true
 weight: 10
 bookCollapseSection: true
 type: 'projects'

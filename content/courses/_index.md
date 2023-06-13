@@ -1,6 +1,6 @@
 ---
 title: "Courses"
-draft: false
+draft: true
 weight: 10
 bookCollapseSection: true
 type: 'courses'

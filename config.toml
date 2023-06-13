@@ -38,19 +38,19 @@ ignoreFiles = [ "README.md" ]
     title = "About me"
     weight = 100
 
-  [[menu.main]]
-    identifier = "courses"
-    name = "Courses"
-    url = "/courses/"
-    title = "Courses"
-    weight = 110
+  #[[menu.main]]
+  # identifier = "courses"
+  #  name = "Courses"
+  #  url = "/courses/"
+  #  title = "Courses"
+  #  weight = 110
 
-  [[menu.main]]
-    identifier = "projects"
-    name = "Projects"
-    url = "/projects/"
-    title = "Projects"
-    weight = 120
+  #[[menu.main]]
+  #  identifier = "projects"
+  #  name = "Projects"
+  #  url = "/projects/"
+  #  title = "Projects"
+  #  weight = 120
 
   [[menu.main]]
     identifier = "students"

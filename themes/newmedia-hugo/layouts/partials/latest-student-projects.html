@@ -1,4 +1,4 @@
-{{ range first 6 (where .Site.RegularPages "Type" .Site.Params.assignments) }}
+{{ range first 6 (where .Site.RegularPages "Type" .Site.Params.students) }}
   <div class="col-md-6 col-lg-4">
     <div class="card mb-4 pb-4">
       <a href="{{ .RelPermalink }}">{{ partial "post-meta-img" . }}</a>

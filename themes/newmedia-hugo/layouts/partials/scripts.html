@@ -1,4 +1,7 @@
 <script src={{ "/js/bootstrap.min.js" | relURL }}></script>
+{{- if default true .Site.Params.mnstriToC -}}
 <script type="text/javascript" src={{ "/js/anchortracking.js" | relURL }}></script>
+{{ end -}}
+
 <script type="text/javascript" src={{ "/js/lightbox.js" | relURL }}></script>
 <link rel="stylesheet" href={{ "/css/lightbox.css" | relURL }}>

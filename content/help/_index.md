@@ -17,9 +17,9 @@ Coming soon...
 
 ### Access
 
-All of your content is stored on [version.aalto.fi](version.aalto.fi), the Aalto instance of GitLab. In order to get your own section on the website, you need to do the following:
+All of your content is stored on [version.aalto.fi](https://version.aalto.fi/gitlab/), the Aalto instance of GitLab. In order to get your own section on the website, you need to do the following:
 
-1. Check that you can access and login to [version.aalto.fi](version.aalto.fi) using your Aalto account.
+1. Check that you can access and login to [version.aalto.fi](https://version.aalto.fi/gitlab/) using your Aalto account.
 2. Ask Matti to add you to the New Media team. Also let him know what name you want to use for your section. We prefer that you use your real name, but it's not a requirement. See the FAQ.
 3. Once Matti or one of the assistants has added you to the team, you can start adding content.
 
@@ -31,7 +31,7 @@ Get familiar with Matti's example that shows you what kind of features are avail
 
 The site is built using a static-site generator called Hugo. You create and edit content by adding new markdown-formatted files to your repository. If you are not familiar with git, GitLab and all of the other technical aspects, you can start off by just using the website editor on version.aalto.fi.
 
-1. Replace the placeholder image called ´featured.jpg´ with a picture of yourself or any other image that represents you in some way.
+1. Replace the placeholder image called `featured.jpg` with a picture of yourself or any other image that represents you in some way.
 2. Update the _index.md file on the top level of the folder with any basic information of you that you want to share (any social media links, LinkedIn profile, your own website etc.). **Note that you are not required to share anything that you don't want.**
 3. Commit any changes that you would like to have published to the site.
 4. Keep in mind that your commited changes will not show up immediately on the site. Matti pulls all the changes periodically. If you wish to see how your changes would look like while you work on it, you need to setup your own local version of the site. (See instructions below).
@@ -107,15 +107,3 @@ Yes, that is the point. We all stand on the shoulders of giants and learning fro
 Don't get me started on that...
 
 ---
-
-## Tables
-
-{{< table "table table-dark table-striped" >}}
-| Component | Amount | Price | Supplier | Notes |
-| :-------------- | :-------------- | :------------- | :-------------- | :-------------- |
-| Item 1          | 1           | 0,67€         | Item 4          | Item 5          |
-| Item 1          | Item 2          | Item 3         | Item 4          | Item 5          |
-| Item 1          | Item 2          | Item 3         | Item 4          | Item 5          |
-| Item 1          | Item 2          | Item 3         | Item 4          | Item 5          |
-| Item 1          | Item 2          | Item 3         | Item 4          | Item 5          |
-{{</ table >}}

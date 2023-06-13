@@ -1,6 +1,6 @@
 ---
 title: "News"
-draft: false
+draft: true
 weight: 40
 bookCollapseSection: true
 ---

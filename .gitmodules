@@ -4,3 +4,6 @@
 [submodule "content/students/2023/john-doe"]
 	path = content/students/2023/john-doe
 	url = git@version.aalto.fi:aalto-media-lab/new-media/john-doe.git
+[submodule "content/help/example/matti-niinimaki"]
+	path = content/help/example/matti-niinimaki
+	url = git@version.aalto.fi:aalto-media-lab/new-media/matti-niinimaki.git

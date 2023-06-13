@@ -105,3 +105,17 @@ Yes, that is the point. We all stand on the shoulders of giants and learning fro
 ### Why don't we just use the Drupal on aalto.fi?
 
 Don't get me started on that...
+
+---
+
+## Tables
+
+{{< table "table table-dark table-striped" >}}
+| Component | Amount | Price | Supplier | Notes |
+| :-------------- | :-------------- | :------------- | :-------------- | :-------------- |
+| Item 1          | 1           | 0,67€         | Item 4          | Item 5          |
+| Item 1          | Item 2          | Item 3         | Item 4          | Item 5          |
+| Item 1          | Item 2          | Item 3         | Item 4          | Item 5          |
+| Item 1          | Item 2          | Item 3         | Item 4          | Item 5          |
+| Item 1          | Item 2          | Item 3         | Item 4          | Item 5          |
+{{</ table >}}

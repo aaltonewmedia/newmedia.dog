@@ -29,10 +29,25 @@ $toc-width: 16rem !default;
 // url highlight
 $url-highlight: $primary; 
 
+// search
+$padding-1: 1px !default;
+$padding-4: 0.25rem !default;
+$padding-8: 0.5rem !default;
+$padding-16: 1rem !default;
+
 @mixin fixed {
   position: fixed;
   top: 0;
   bottom: 0;
   overflow-x: hidden;
   overflow-y: auto;
+}
+
+@mixin spin($duration) {
+  animation: spin $duration ease infinite;
+  @keyframes spin {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 }

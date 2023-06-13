@@ -14,6 +14,13 @@
       Location of favicon can be in mytheme/static/favicon.ico
   -->
   <link rel='shortcut icon' type='image/x-icon' href={{ "/favicon.ico" | relURL }} />
+  
+  {{- if default true .Site.Params.BookSearch -}}
+    {{- $searchJSFile := printf "%s.search.js" .Language.Lang }}
+    {{- $searchJS := resources.Get "search.js" | resources.ExecuteAsTemplate $searchJSFile . | resources.Minify | resources.Fingerprint }}
+    <script defer src="{{ "/js/flexsearch.min.js" | relURL }}"></script>
+    <script defer src="{{ $searchJS.RelPermalink }}" {{ template "integrity" $searchJS }}></script>
+  {{ end -}}
   {{ if isset .Params "asciinema" }}
   <link rel="stylesheet" type="text/css" href="{{ "/css/asciinema-player.css" | relURL }}" />
   <script src="{{ "/js/asciinema-player.min.js" | relURL }}"></script>
@@ -21,6 +28,13 @@
   {{ if isset .Params "p5js-widget" }}
   <script src="//toolness.github.io/p5.js-widget/p5-widget.js" width="200"></script>
   {{ end }} 
+
+  {{- define "integrity" -}}
+  {{- if (urls.Parse .Permalink).Host -}}
+    integrity="{{ .Data.Integrity }}" crossorigin="anonymous"
+  {{- end -}}
+{{- end -}}
+
 
   {{ $title := print .Site.Title " | " .Title }}
   {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}

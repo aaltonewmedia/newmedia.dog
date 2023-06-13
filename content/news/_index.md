@@ -5,4 +5,4 @@ weight: 40
 bookCollapseSection: true
 ---
 
-Courses
+## Latest News

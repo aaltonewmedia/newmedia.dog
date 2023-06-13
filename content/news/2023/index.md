@@ -4,8 +4,8 @@ draft: false
 description: '2023'
 summary: '2023'
 categories: ['News']
-tags: ['art+media studio', 'interactive and immersive art']
+tags: []
 type: 'news'
 ---
 
-# Hello
+# This is a news item

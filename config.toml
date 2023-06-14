@@ -72,8 +72,15 @@ ignoreFiles = [ "README.md" ]
   #  weight = 140
 
   [[menu.main]]
+    identifier = "learn"
+    name = "Learn"
+    url = "https://learn.newmedia.dog"
+    title = "Learn"
+    weight = 150
+
+  [[menu.main]]
     identifier = "help"
     name = "Help"
     url = "/help/"
     title = "Help"
-    weight = 150
+    weight = 160

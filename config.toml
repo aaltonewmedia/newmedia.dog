@@ -6,6 +6,12 @@ copyright = '{year} Aalto Media Lab. All rights reserved.'
 paginate = 30
 ignoreFiles = [ "README.md" ]
 
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  author = 'authors'
+
+
 [markup.goldmark.renderer]
  unsafe = true
 

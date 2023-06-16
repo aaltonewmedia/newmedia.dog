@@ -4,7 +4,7 @@ draft: false
 description: 'Art + Media Studio: Interactive and Immersive Art, 2023.'
 summary: 'Projects from the 2023 class'
 categories: ['Courses']
-tags: ['art+media studio', 'interactive and immersive art']
+tags: ''
 type: 'courses'
 bookCollapseSection: true
 ---

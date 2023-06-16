@@ -7,3 +7,6 @@
 [submodule "content/help/example/matti-niinimaki"]
 	path = content/help/example/matti-niinimaki
 	url = git@version.aalto.fi:aalto-media-lab/new-media/matti-niinimaki.git
+[submodule "content/students/2023/jane-doe"]
+	path = content/students/2023/jane-doe
+	url = git@version.aalto.fi:aalto-media-lab/new-media/2023/jane-doe.git

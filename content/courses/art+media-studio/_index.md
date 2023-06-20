@@ -3,9 +3,12 @@ title: 'Art + Media Studio'
 draft: false
 description: 'Art + Media Studio'
 summary: 'This is a summary'
-categories: ['Courses']
+categories: ''
 type: 'courses'
+implementation: false
 bookCollapseSection: true
 ---
 
-## Select a course
+Art + Media Studio has multiple thematic groups each year.
+
+## Select the year

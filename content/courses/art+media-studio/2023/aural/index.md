@@ -1,13 +1,13 @@
 ﻿---
 title: 'AURA/L'
+date: 2023-06-02
 draft: false
 image: img/aural2.jpg
 description: 'Art + Media Studio: Interactive and Immersive Art, 2023. AURA/L is a prototype of an audiovisual instrument you play with your physical presence. Upon entry into the 360-degree installation your body contributes an ever-changing soundscape that shifts both aurally and visually with your movement in the space.'
 summary: 'A prototype of an audiovisual instrument you play with your physical presence.'
 categories: ''
-tags: ['art+media studio', 'interactive and immersive art']
 authors: ['Monika Hauck']
-type: 'courses'
+type: 'projects'
 ---
 
 ## An Interactive A/V Environ by Monika Hauck

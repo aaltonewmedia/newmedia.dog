@@ -1,11 +1,5 @@
-<!--
-{{ with .Date }}
-  <p class="card-text px-3">{{ partial "date" (dict "Date" . "Format" $.Site.Params.BookDateFormat) }}</p>
-{{ end }}
--->
-
 {{ if .Params.year}}
-<p class="card-text px-3">{{ .Params.year }}</p>
+<p class="card-text small px-3">{{ .Params.year }}</p>
 {{ end }}
 
 {{ range $taxonomy, $_ := .Site.Taxonomies }}
@@ -13,9 +7,25 @@
   <div class="post-meta row">
     <div class="col px-4">
     {{ range $n, $term := $terms }}{{ if $n }}{{ end }}
-      <a href="{{ $term.RelPermalink }}">{{ $term.Title }}</a>
+      <a href="{{ $term.RelPermalink }}" class="{{ $taxonomy }}">{{ $term.Title }}</a>
     {{- end }}
     </div>
   </div>
   {{ end }}
 {{ end }}
+
+<hr>
+
+{{ with .Date }}
+  <p class="card-text small px-3">{{ partial "date" (dict "Date" . "Format" $.Site.Params.BookDateFormat) }}</p>
+{{ end }}
+
+{{ range where .Ancestors.Reverse ".Kind" "!=" "home" }}
+<div class="post-meta row">
+  <div class="col px-4">
+    <a href="{{ .RelPermalink }}" class="ancestors">{{ .Title }} </a>
+  </div>
+</div>
+{{ end }}
+
+

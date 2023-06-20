@@ -9,6 +9,9 @@
         <h1>
           <a href="{{ .RelPermalink }}">{{ partial "title" . }}</a>
         </h1>
+        {{ if .Params.subheading}}
+        <h2>{{.Params.subheading}}</h2>
+        {{ end }}
       </div>
       {{ if .Params.image}}
       {{ partial "page-featured-image" . }}

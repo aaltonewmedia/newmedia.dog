@@ -1,11 +1,11 @@
-{{ range first 6 (where .Site.RegularPages "Type" .Site.Params.students) }}
+{{ range first 6 (where .Site.RegularPages.ByDate.Reverse "Params.type" "projects") }}
   <div class="col-md-6 col-lg-4">
     <div class="card mb-4 pb-4">
       <a href="{{ .RelPermalink }}">{{ partial "post-meta-img" . }}</a>
       <h5 class="card-title px-3">
       <a href="{{ .RelPermalink }}">{{ partial "title" . }}</a>
       </h5>
-      <p class="card-text px-3">
+      <p class="card-text small px-3">
         {{- .Summary -}}
         {{ if .Truncated }}
           <a href="{{ .RelPermalink }}">...</a>

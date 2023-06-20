@@ -198,6 +198,11 @@ main{
     color: $primary !important;
     background: $light !important;
   }
+  hr{
+   border: .1rem dashed $light;
+   opacity: 1;
+   background-color: inherit;
+  }
 
 }
 
@@ -357,6 +362,16 @@ a.no-children.active, a.no-children:hover{
     display: inline-block;
     font-size: 12px;
     font-family: 'Roboto Mono',monospace;
+  }
+
+   a.authors{
+    background-color: $light;
+    color: $primary;
+  }
+
+  a.ancestors{
+    font-size: 9px;
+    margin:0;
   }
 }
 

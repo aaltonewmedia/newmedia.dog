@@ -44,9 +44,25 @@ The site is built using a static-site generator called Hugo. You create and edit
 
 #### Images
 
+Please follow these guidelines for images:
+- The file size for any image should be less than 2MB, ideally much smaller
+- The longer side of your image should be maximum 1500px
+- Horizontal images work best on this site
+
 #### Videos
 
-If your video file is small (under 10MB), you can upload it directly to your repository. Otherwise, upload videos to some Aalto service like Panopto or to the Aalto Media Lab Vimeo or YouTube channels. If you are in a hurry, you can upload the file to your own video sharing account, but let's try to eventually upload all videos to our accounts so that we do not lose them.
+If your video file is small (under 50MB), you can upload it directly to your repository. Otherwise, upload videos to some Aalto service like Panopto or to the Aalto Media Lab Vimeo or YouTube channels. If you are in a hurry, you can upload the file to your own video sharing account, but let's try to eventually upload all videos to our accounts so that we do not lose them.
+
+Please follow these guidelines:
+- Resolution: 1920 x 1080
+- **No vertical videos**
+- .mp4 file
+- H264 or some other web-friendly coded
+- Try to keep the file size under 10MB, the maximum size is 50MB
+
+
+There are multiple tools available for compressing your videos. These are some recommended options:
+- HandBrake
 
 ##### Vimeo
 

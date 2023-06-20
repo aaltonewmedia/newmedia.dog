@@ -1,16 +1,15 @@
 ---
 title: 'FAFA Fest'
+subheading: "Visual identity and visual installation"
+date: 2023-06-02
 draft: false
 image: img/featured.jpg
 description: 'Art + Media Studio: Interactive and Immersive Art, 2023. The project is an interactive and immersive art piece for FAFA Fest 2023, consisting of a visual identity and a captivating visual installation with projection mapping using cube structures.'
 summary: 'The project is an interactive and immersive art piece for FAFA Fest 2023, consisting of a visual identity and a captivating visual installation with projection mapping using cube structures.'
 categories: ''
-tags: ['art+media studio', 'interactive and immersive art']
 authors: ['Donato Renzulli', 'Yiting Ruan']
-type: 'courses'
+type: 'projects'
 ---
-
-## FAFA Fest | Visual identity and visual installation
 
 -**Date:** 2023.05-2023.06  
 -**Material:** Wood, Diffusion Paper, Baking Paper  

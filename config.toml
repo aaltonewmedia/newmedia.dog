@@ -2,7 +2,7 @@ baseURL = 'https://newmedia.dog'
 languageCode = 'en-us'
 title = 'Aalto New Media'
 theme = 'newmedia-hugo'
-copyright = '{year} Aalto Media Lab. All rights reserved.'
+copyright = '{year} Aalto Media Lab for general content of the site, and the respective author of the individual pages for user-generated pages. All rights reserved.'
 paginate = 30
 ignoreFiles = [ "README.md" ]
 

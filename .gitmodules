@@ -4,9 +4,6 @@
 [submodule "content/students/2023/pili-valdivia"]
 	path = content/students/2023/pili-valdivia
 	url = git@version.aalto.fi:aalto-media-lab/new-media/2023/pili-valdivia.git
-[submodule "content/students/2023/aleksandra-artemenko"]
-	path = content/students/2023/aleksandra-artemenko
-	url = git@version.aalto.fi:aalto-media-lab/new-media/2023/aleksandra-artemenko.git
 [submodule "content/students/2023/jonna-eloranta"]
 	path = content/students/2023/jonna-eloranta
 	url = git@version.aalto.fi:aalto-media-lab/new-media/2023/jonna-eloranta.git
@@ -49,3 +46,6 @@
 [submodule "content/students/2022/tomi-monahan"]
 	path = content/students/2022/tomi-monahan
 	url = git@version.aalto.fi:aalto-media-lab/new-media/2022/tomi-monahan.git
+[submodule "content/students/2023/alex-artemenko"]
+	path = content/students/2023/alex-artemenko
+	url = git@version.aalto.fi:aalto-media-lab/new-media/2023/alex-artemenko.git

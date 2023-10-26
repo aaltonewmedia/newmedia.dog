@@ -4,3 +4,48 @@
 [submodule "content/students/2023/pili-valdivia"]
 	path = content/students/2023/pili-valdivia
 	url = git@version.aalto.fi:aalto-media-lab/new-media/2023/pili-valdivia.git
+[submodule "content/students/2023/aleksandra-artemenko"]
+	path = content/students/2023/aleksandra-artemenko
+	url = git@version.aalto.fi:aalto-media-lab/new-media/2023/aleksandra-artemenko.git
+[submodule "content/students/2023/jonna-eloranta"]
+	path = content/students/2023/jonna-eloranta
+	url = git@version.aalto.fi:aalto-media-lab/new-media/2023/jonna-eloranta.git
+[submodule "content/students/2023/sten-heijster"]
+	path = content/students/2023/sten-heijster
+	url = git@version.aalto.fi:aalto-media-lab/new-media/2023/sten-heijster.git
+[submodule "content/students/2023/mika-jarvi"]
+	path = content/students/2023/mika-jarvi
+	url = git@version.aalto.fi:aalto-media-lab/new-media/2023/mika-jarvi.git
+[submodule "content/students/2023/mengqiao-liu"]
+	path = content/students/2023/mengqiao-liu
+	url = git@version.aalto.fi:aalto-media-lab/new-media/2023/mengqiao-liu.git
+[submodule "content/students/2023/jiayi-li"]
+	path = content/students/2023/jiayi-li
+	url = git@version.aalto.fi:aalto-media-lab/new-media/2023/jiayi-li.git
+[submodule "content/students/2023/rui-zeng"]
+	path = content/students/2023/rui-zeng
+	url = git@version.aalto.fi:aalto-media-lab/new-media/2023/rui-zeng.git
+[submodule "content/students/2023/yihan-lou"]
+	path = content/students/2023/yihan-lou
+	url = git@version.aalto.fi:aalto-media-lab/new-media/2023/yihan-lou.git
+[submodule "content/students/2023/janne-pusa"]
+	path = content/students/2023/janne-pusa
+	url = git@version.aalto.fi:aalto-media-lab/new-media/2023/janne-pusa.git
+[submodule "content/students/2023/celeste-smareglia"]
+	path = content/students/2023/celeste-smareglia
+	url = git@version.aalto.fi:aalto-media-lab/new-media/2023/celeste-smareglia.git
+[submodule "content/students/2023/yu-hsuan-yao"]
+	path = content/students/2023/yu-hsuan-yao
+	url = git@version.aalto.fi:aalto-media-lab/new-media/2023/yu-hsuan-yao.git
+[submodule "content/students/2023/lu-chen"]
+	path = content/students/2023/lu-chen
+	url = git@version.aalto.fi:aalto-media-lab/new-media/2023/lu-chen.git
+[submodule "content/students/2022/xuemei-ge"]
+	path = content/students/2022/xuemei-ge
+	url = git@version.aalto.fi:aalto-media-lab/new-media/2022/xuemei-ge.git
+[submodule "content/students/2022/pauliina-korento"]
+	path = content/students/2022/pauliina-korento
+	url = git@version.aalto.fi:aalto-media-lab/new-media/2022/pauliina-korento.git
+[submodule "content/students/2022/tomi-monahan"]
+	path = content/students/2022/tomi-monahan
+	url = git@version.aalto.fi:aalto-media-lab/new-media/2022/tomi-monahan.git

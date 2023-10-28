@@ -52,3 +52,6 @@
 [submodule "content/help/example/nick-newmedia"]
 	path = content/help/example/nick-newmedia
 	url = git@version.aalto.fi:aalto-media-lab/new-media/2023/nick-newmedia.git
+[submodule "content/students/2023/vytautas-bikauskas"]
+	path = content/students/2023/vytautas-bikauskas
+	url = git@version.aalto.fi:aalto-media-lab/new-media/2023/vytautas-bikauskas.git

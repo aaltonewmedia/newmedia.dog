@@ -49,3 +49,6 @@
 [submodule "content/students/2023/alex-artemenko"]
 	path = content/students/2023/alex-artemenko
 	url = git@version.aalto.fi:aalto-media-lab/new-media/2023/alex-artemenko.git
+[submodule "content/help/example/nick-newmedia"]
+	path = content/help/example/nick-newmedia
+	url = git@version.aalto.fi:aalto-media-lab/new-media/2023/nick-newmedia.git

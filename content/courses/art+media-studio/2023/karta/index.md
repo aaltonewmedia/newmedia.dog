@@ -15,7 +15,10 @@ Procedural workflows and tools for visual authoring are increasing in popularity
 
 Karta started as a custom note-taking and visual organisation tool. Its main differentiating feature was the focus on local graphs, and being able to organise the same notes in varying arrangements depending on context. It eventually occurred to me to experiment with ways to use the application for creative coding. The current iteration of it is a simple state machine; a tool for arranging visual compositions and traveling between them, transforming smoothly from one to another. 
 
-{{< video  src="video/karta.mp4" >}}
+<video controls width=100%>
+  <source src ="./video/karta.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 Compositions are defined as scenes with child nodes that represent the content of those scenes. Scenes may also be connected to other scenes. The currently active scene has its contents output to the background of the node graph. The user may choose an adjacent scene to transition to, and they will see the contents smoothly animate in the background. 
 

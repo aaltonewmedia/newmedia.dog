@@ -14,7 +14,10 @@ type: 'projects'
 
 ### *“The greatest challenge for humanity is solving the process of problem solving itself”.* 
 
-{{< video  src="video/justify-ai.mp4" >}}
+<video controls width=100%>
+  <source src ="./video/justify-ai.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 Did you know that when a problem reaches a certain degree of complexity, our brains lose the capacity to keep track of all the variables?  While choosing the proper course of action for each given situation, we rely on emotion, bias and instinct more often than we consciously realize.  This is what makes choosing the right options in today’s hectic work environment a time-consuming process, that often comes at the cost of productivity. 
 

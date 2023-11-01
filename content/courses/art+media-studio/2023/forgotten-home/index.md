@@ -10,7 +10,10 @@ authors: ['Agata Rudnicka', 'Aditya Radhakrishna']
 type: 'projects'
 ---
 
-{{< video  src="video/forgotten-home.mp4" >}}
+<video controls width=100%>
+  <source src ="./video/forgotten-home.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Agata
 

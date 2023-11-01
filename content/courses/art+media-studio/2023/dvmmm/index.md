@@ -10,7 +10,11 @@ authors: ['Jassir Kuronen']
 type: 'projects'
 ---
 
-{{< video  src="video/dvmmm.mp4" >}}
+<video controls width=100%>
+  <source src ="./video/dvmmm.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 DVMMM is an analog video mixer and glitch effect machine. The design is based on a well-known Karl Klomps ”dirty video mixer",  one of the most well-known and simplest DIY video glitch circuits. Glitch effects are made when two video signals fight for the signal space. This results in unexpected glitch effects.
 

@@ -22,7 +22,10 @@ The project is an interactive and immersive art piece for FAFA Fest 2023, consis
   
 The FAFA Fest is a music festival that will take place the 7th of July in Foggia, a city in the south of Italy. It is organized by young artists for a young audience, which is why we aimed to set a playful tone with the installation rather than an institutional one.  
 
-{{< video  src="video/fafa_video.mp4" >}}
+<video controls width=100%>
+  <source src ="./video/fafa_video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
   
 The development of the visual identity for FAFA Fest required the creation of a visual language that could be versatile and flexible for digital content, printed content and live visuals on stage. As the tone of the festival was informal, playful and young, the creation of the visual identity started by experimenting with a 3D cube on whose faces the word FA appeared. A san-serif and non-institutional font was chosen that would convey well the mood of the project and that, applied as a 3D texture, would create a typographic pattern in which the meaning of the words gives way to their graphic value.  
   

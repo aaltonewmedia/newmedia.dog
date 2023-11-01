@@ -14,6 +14,12 @@
       Location of favicon can be in mytheme/static/favicon.ico
   -->
   <link rel='shortcut icon' type='image/x-icon' href={{ "/favicon.ico" | relURL }} />
+
+  <script>
+    window.onload = function (){
+      document.getElementById("bmap").style.display = "flex" ;
+    }
+  </script> 
   
   {{- if default true .Site.Params.BookSearch -}}
     {{- $searchJSFile := printf "%s.search.js" .Language.Lang }}

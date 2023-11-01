@@ -6,6 +6,8 @@ summary: 'Audiovisual Studio'
 type: 'courses'
 bookCollapseSection: true
 draft: false
+implementation: true
+date: 2023-10-20
 ---
 
 ## Course Description

@@ -8,8 +8,9 @@
     <header class="container-fluid">
       {{- partial "header" . -}}
     </header>
-
-    {{- partial "nav-top" . -}}
+    <div class="container-fluid p-0 sticky-top mnstri-top-nav justify-content-center">
+      {{- partial "nav-top" . -}}
+    </div>
 
     <main id="content" class="container-xxl">
           {{- block "main" . -}}

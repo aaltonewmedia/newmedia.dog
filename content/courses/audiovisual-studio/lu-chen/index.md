@@ -1,13 +1,19 @@
 ---
-title: 'Lù / 璐 | sonic fetus / 阵痛 '
+title: 'sonic fetus / 阵痛 '
 image: featured.jpg
+hideImage: true
 description: 'Audiovisual Studio'
 summary: 'Audiovisual Studio'
 type: 'courses'
-authors: ['Lu']
+authors: ['Lù / 璐']
 bookCollapseSection: true
 draft: false
 ---
+
+<video controls width=60%>
+  <source src ="./video/lu-chen-sonic-fetus.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 Combining the audio-reactive visuals with Stablediffusion, this project imagines the common analogy between week-by-week human fetal development and the dimension of various fruits. With every kick in the music, the fetus grows to the next stage. from week 3 to week 40, the fetus transforms from “a poppyseed” to almost “a pumpkin.”
 
@@ -17,8 +23,3 @@ After research, I found out that this corpus actually compares the growth of a f
 
 - [Website](https://l-lu-u.github.io/)
 - [Instagram](https://www.instagram.com/lu.does.stuff/)
-
-<video controls width=60%>
-  <source src ="./video/lu-chen-sonic-fetus.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>

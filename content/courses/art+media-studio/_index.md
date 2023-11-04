@@ -7,6 +7,7 @@ categories: ''
 type: 'courses'
 implementation: false
 bookCollapseSection: true
+image: featured.jpg
 ---
 
 Art + Media Studio has multiple thematic groups each year.

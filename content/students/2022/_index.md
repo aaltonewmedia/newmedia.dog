@@ -6,6 +6,7 @@ summary: '2022'
 type: 'students'
 bookCollapseSection: true
 weight: 2000
+image: featured2022.jpg
 ---
 
 ## New Media Students 2022

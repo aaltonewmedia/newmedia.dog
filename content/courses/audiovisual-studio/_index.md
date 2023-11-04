@@ -1,17 +1,13 @@
 ---
 title: 'Audiovisual Studio'
 image: featured.jpg
+hideImage: true
 description: 'Audiovisual Studio'
 summary: 'Audiovisual Studio'
 type: 'courses'
 bookCollapseSection: true
 draft: false
-implementation: true
-date: 2023-10-20
+implementation: false
 ---
 
-## Course Description
-
-### Content
-
-
+One week workshop in Period I.

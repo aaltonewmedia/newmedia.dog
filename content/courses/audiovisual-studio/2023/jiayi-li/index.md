@@ -1,5 +1,5 @@
 ---
-title: 'Meet your New Face'
+title: 'Meet Your New Face'
 image: featured.jpg
 hideImage: true
 description: 'Audiovisual Studio'

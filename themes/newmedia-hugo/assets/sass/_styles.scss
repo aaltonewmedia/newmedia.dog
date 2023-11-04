@@ -142,7 +142,7 @@ header{
 footer{
   color: $light;
   background: $primary;
-  box-shadow: $box-shadow-top;
+  box-shadow: $box-shadow-top, 0 50vh 0 50vh $dark;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
   font-size: 0.75rem;

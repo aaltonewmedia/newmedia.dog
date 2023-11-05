@@ -1,7 +1,7 @@
 ---
 title: "Students"
 draft: false
-weight: 20
+weight: 30
 bookCollapseSection: true
 ---
 

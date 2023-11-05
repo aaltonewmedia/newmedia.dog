@@ -4,10 +4,11 @@ image: featured.jpg
 hideImage: true
 description: 'Audiovisual Studio'
 summary: 'Audiovisual Studio'
-type: 'courses'
+type: 'projects'
 authors: ['Yu-Hsuan Yao']
 bookCollapseSection: true
 draft: false
+date: 2023-10-20
 ---
 
 {{<vimeo id="881225418" class="video">}}

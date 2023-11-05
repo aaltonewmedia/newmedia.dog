@@ -4,10 +4,11 @@ image: featured.jpg
 hideImage: true
 description: 'Audiovisual Studio'
 summary: 'Audiovisual Studio'
-type: 'courses'
+type: 'projects'
 authors: ['Lù / 璐']
 bookCollapseSection: true
 draft: false
+date: 2023-10-20
 ---
 
 {{<vimeo id="881208875" class="video">}}

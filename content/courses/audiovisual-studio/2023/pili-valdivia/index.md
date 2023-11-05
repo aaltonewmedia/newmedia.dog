@@ -4,10 +4,11 @@ image: featured.jpg
 hideImage: true
 description: 'Audiovisual Studio'
 summary: 'Audiovisual Studio'
-type: 'courses'
+type: 'projects'
 authors: ['Pili Valdivia']
 bookCollapseSection: true
 draft: false
+date: 2023-10-20
 ---
 
 <video controls width=60%>

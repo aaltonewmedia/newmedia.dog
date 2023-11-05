@@ -1,9 +1,12 @@
-<div class="container m-xxl-auto m-sm-0">
-<div class="row justify-content-center">
-  <div class="col">
-    <a href="{{ "/" | relURL}}">
-     <div class="brand py-0">{{ .Site.Title }}</div>
-    </a>
+<div class="container m-xxl-auto m-sm-0 px-0">
+  <div class="d-flex flex-row">
+    <div class="pt-2 px-0 mx-0">
+      <a href="{{ "/" | relURL}}"><img src="{{ "aalto-logo.png" | relURL }}" style="max-height: 4.34rem;" class=""></a>
+    </div>
+    <div class="mw-75">
+      <a href="{{ "/" | relURL}}">
+        <div class="brand py-0 h-100">{{ .Site.Title }}</div>
+      </a>
+    </div>
   </div>
-</div>
 </div>

@@ -55,3 +55,6 @@
 [submodule "content/students/2023/vytautas-bikauskas"]
 	path = content/students/2023/vytautas-bikauskas
 	url = git@version.aalto.fi:aalto-media-lab/new-media/2023/vytautas-bikauskas.git
+[submodule "content/students/2022/yan-zhang"]
+	path = content/students/2022/yan-zhang
+	url = git@version.aalto.fi:aalto-media-lab/new-media/2022/yan-zhang

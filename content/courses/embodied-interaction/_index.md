@@ -1,6 +1,6 @@
 ---
 title: 'Embodied Interaction'
-draft: true
+draft: false
 image: featured.jpg
 description: 'Embodied Interaction'
 summary: 'Embodied Interaction'
